@@ -2,8 +2,12 @@
 
 At the end of the course, you will be able to:
 
-* Understand conceptual foundations of Microservice-based Applications and RPC-based design
-  - Models of parallel and distributed architectures and scalability ranges of each (multicore, coherent multi-socket, accelerator-based, fast message-passing cluster networks, data center scale, cloud scale)
+* Understand conceptual foundations of Microservice-based Applications
+  and RPC-based design
+  - Models of parallel and distributed architectures and scalability
+    ranges of each (multicore, coherent multi-socket,
+    accelerator-based, fast message-passing cluster networks, data
+    center scale, cloud scale)
   - Data serialization
     * Relevant issue any time you go beyond coherent multi-socket
   - Monolithic applications or microservices
@@ -16,24 +20,33 @@ At the end of the course, you will be able to:
     * Canonical history (RFCs, etc)
     * Arguments for and against
       - And how modern systems navigate those decisions
-    * Models of communication to support (e.g., unary, streaming, sync, async)
+    * Models of communication to support (e.g., unary, streaming,
+      sync, async)
     * Level of abstraction to support (examples like ZeroMQ)
     * Scalability level to target
     * Polyglot or monolingual
     * API design
 * Use gRPC to build microservices:
   - Why are we choosing gRPC
-    * NOTE: The class is open-source and we will accept contributed lectures on how to use some other RPC platform instead if that’s what people want
-  - Write simple microservices and clients: 
-    * Apply the design concepts through realistic and interesting course homework assignments
-    * Understand design practices on how to define services at the right level of abstraction.
+    * NOTE: The class is open-source and we will accept contributed
+      lectures on how to use some other RPC platform instead if that’s
+      what people want
+  - Write simple microservices and clients:
+    * Apply the design concepts through realistic and interesting
+      course homework assignments
+    * Understand design practices on how to define services at the
+      right level of abstraction.
   - Know how to load balance and scale micro services
   - Troubleshooting a microservices architecture, common patterns
-  - Scaling this out to mobile devices and outside of your infrastructure
-  - Test, validate and benchmark microservices (or simply rewrite the service in C++ or Go)
-    * Design of unit tests, integration tests, and benchmarks for microservice-based applications
+  - Scaling this out to mobile devices and outside of your
+    infrastructure
+  - Test, validate and benchmark microservices (or simply rewrite the
+    service in C++ or Go)
+    * Design of unit tests, integration tests, and benchmarks for
+      microservice-based applications
     * Real world example on how to optimize
   - Basic Deployment concepts (epilogue):
-    * Proxying, L4/L7 
-    * Service discovery 
-    * How do you deploy and manage a fleet of services - tie this into the kubernetes course.
+    * Proxying, L4/L7
+    * Service discovery
+    * How do you deploy and manage a fleet of services - tie this into
+      the kubernetes course.
