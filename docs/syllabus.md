@@ -8,8 +8,7 @@ At the end of the course, you will be able to:
     ranges of each (multicore, coherent multi-socket,
     accelerator-based, fast message-passing cluster networks, data
     center scale, cloud scale)
-  - Data serialization
-    * Relevant issue any time you go beyond coherent multi-socket
+  - [Data serialization](../slides/serialization.md)
   - Monolithic applications or microservices
     * Scalability
     * Facilitating maintenance
