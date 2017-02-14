@@ -4,10 +4,9 @@ At the end of the course, you will be able to:
 
 * Understand conceptual foundations of Microservice-based Applications
   and RPC-based design
-  - Models of parallel and distributed architectures and scalability
-    ranges of each (multicore, coherent multi-socket,
-    accelerator-based, fast message-passing cluster networks, data
-    center scale, cloud scale)
+  - [Issues in parallel and distributed programming models (work
+    partitioning, naming, synchronization) and platforms (from
+    multicore to cloud)](../slides/parallel-models.md)
   - [Data serialization](../slides/serialization.md)
   - Monolithic applications or microservices
     * Scalability
