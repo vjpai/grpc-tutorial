@@ -1,6 +1,6 @@
 # Constructing Parallel and Distributed Applications
 
-## Work Partitioning
+## [Work Partitioning](#partitioning)
 
 The fundamental requirement when building any parallel or distributed
 application is some form of work partitioning into subtasks.
@@ -14,7 +14,7 @@ application is some form of work partitioning into subtasks.
 	* e.g., mobiles are very light clients and often store/process data elsewhere
   - So some parts of the job must run closer to those resources
 
-## Coordination
+## [Coordination](#coordination)
 
 But any time we have different subtasks, we must have some way of
 coordinating their work.

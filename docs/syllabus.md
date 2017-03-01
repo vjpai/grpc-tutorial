@@ -8,12 +8,9 @@ At the end of the course, you will be able to:
     partitioning, naming, synchronization) and platforms (from
     multicore to cloud)](../slides/parallel-models.md)
   - [Data serialization](../slides/serialization.md)
-  - Monolithic applications or microservices
-    * Scalability
-    * Facilitating maintenance
-    * Multilingual development
+  - [Models of communication (e.g., client-server, pub-sub, streaming)](../slides/models-communication.md)
+  - [Monolithic applications or microservices](../slides/microservices.md)
   - Examples of multi-layer and peer-to-peer system design
-  - Models of communication (e.g., client-server, pub-sub, streaming)
   - RPC-based transport: the why and the how
     * Canonical history (RFCs, etc)
     * Arguments for and against
