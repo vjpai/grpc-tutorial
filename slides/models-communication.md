@@ -135,3 +135,5 @@ flow.
 	- Requires well-balanced stages
 	  - Control work at each stage
 	  - Load-balance compute resources across different stages
+* Streaming communication can be appropriate
+* So can asynchronous processing of network activity
