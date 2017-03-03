@@ -7,8 +7,7 @@ At the end of the course, you will be able to:
   - [Issues in parallel and distributed programming models (work
     partitioning, naming, synchronization) and platforms (from
     multicore to cloud)](../slides/parallel-models.md)
-  - Data serialization
-    * Relevant issue any time you go beyond coherent multi-socket
+  - [Data serialization](../slides/serialization.md)
   - Monolithic applications or microservices
     * Scalability
     * Facilitating maintenance
