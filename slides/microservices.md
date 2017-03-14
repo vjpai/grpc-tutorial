@@ -15,6 +15,8 @@
       - Even if the subtasks run on the same box
   - At companies like Google, everything is built as microservices
 
+![Microservice-based app diagram](microservice_app.png)
+
 ## Motivations for microservice-based design
 
 * Scalability
