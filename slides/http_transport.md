@@ -9,7 +9,7 @@
   - Encode request parameters as content
   - Encode return value in HTTP response
 
-```
+```http
 POST /upload HTTP/1.1
 Host: www.example.org
 Content-Type: application/json
