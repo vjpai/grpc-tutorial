@@ -32,6 +32,10 @@ subtasks for the next phase.
 Embarassingly parallel (sometimes called scalably
 parallel) represents a class of bulk-synchronous with just one phase.
 
+```
+TODO: Add a representative figure
+```
+
 ## Client-server
 
 The client-server model exists when there are two classes of systems in an
@@ -44,6 +48,10 @@ application:
     * Can just provide data (as in static web content)
 	* Or can do work on behalf of client (as in personalized or dynamic data generation)
   - in multi-tier systems, servers can themselves be clients of other servers.
+
+```
+TODO: Add a representative figure
+```
 
 The client is typically less interested in the location or
 other physical characteristics of the server and more so in the service that it
@@ -98,6 +106,10 @@ flow.
 	* Limits load-balance opportunities to once per stream instead of once
 	  per mesage
 
+```
+TODO: Add a representative figure
+```
+
 ## Controller-worker
 
 * Another model with a dichotomy of subtask classes
@@ -116,6 +128,10 @@ flow.
 * Long-term association between each worker and its controller
   - Streaming may be a good choice
 
+```
+TODO: Add a representative figure
+```
+
 ## Publish-subscribe
 
 * A different dichotomy of subtask classes
@@ -127,6 +143,10 @@ flow.
   - Subscriber sends a request for updates on a stream
   - Publisher pushes updates to each of its subscribers
 
+```
+TODO: Add a representative figure
+```
+
 ## Pipeline
 
 * Each subtask (_stage_) performs a distinct operation on its data input
@@ -135,3 +155,7 @@ flow.
 	- Requires well-balanced stages
 	  - Control work at each stage
 	  - Load-balance compute resources across different stages
+
+```
+TODO: Add a representative figure
+```
