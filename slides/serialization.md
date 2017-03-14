@@ -37,3 +37,43 @@ applications constructed with an
 - Each object field has a user-defined tag to allow for future expansion
 - All fields in a structure are optional and 
   take only minimal space if unused.
+
+## Example of Protobuf Data Specification
+
+``` protobuf
+syntax = “proto3”;
+message Person {
+  string name = 1;
+  int32 id = 2;
+  string email = 3;
+
+  enum PhoneType {
+    MOBILE = 0;
+    HOME = 1;
+    WORK = 2;
+  }
+
+  message PhoneNumber {
+    string number = 1;
+    PhoneType type = 2;
+  }
+
+  repeated PhoneNumber phone = 4;
+}
+```
+
+* There are some primitive types like int32, string
+* User can define `enum` values just as in most programming languages
+* User can structure data in the form of `message`s
+  - Each field has a numerical tag that is used to identify its field number
+    * Field numbers can remain constant for a given field even as a given
+	  data specification evolves
+	* This is because all fields are optional
+	  - If a primitive field is not present, it gets its default value (e.g., 
+        integer 0, empty string)
+  - A `message` can contain other `message`s as their fields
+* A field can indicate that it is `repeated` which means that there
+  are 0 or more entries of that data type
+* The protobuf code generator turns messages into objects in any one of a number of languages
+  - Provides language-appropriate getter and setter methods
+  - as well as field-presence detectors for message types
