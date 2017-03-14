@@ -13,7 +13,7 @@ applications constructed with an
     process, on network, or on disk
 - Is it efficient or appropriate to use the same data format in memory
   as on a network or disk?
-	
+
 ## Commonly-used serialization systems
 
 - JSON (text-based human-readable format most commonly used in Web
@@ -67,9 +67,9 @@ message Person {
 * User can structure data in the form of `message`s
   - Each field has a numerical tag that is used to identify its field number
     * Field numbers can remain constant for a given field even as a given
-	  data specification evolves
-	* This is because all fields are optional
-	  - If a primitive field is not present, it gets its default value (e.g., 
+      data specification evolves
+    * This is because all fields are optional
+      - If a primitive field is not present, it gets its default value (e.g.,
         integer 0, empty string)
   - A `message` can contain other `message`s as their fields
 * A field can indicate that it is `repeated` which means that there
