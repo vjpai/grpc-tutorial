@@ -38,6 +38,7 @@ Content-Type: application/json
 * Compact binary framing layer
   - Messages can be split into HEADERS frames and DATA frames
   - Frames from different streams can be interleaved
+    * Naturally enables true parallelism of streams, not just pipelining
   - Prioritization
   - Flow control
   - Server push
