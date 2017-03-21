@@ -11,16 +11,8 @@ At the end of the course, you will be able to:
   - [Models of communication (e.g., client-server, pub-sub, streaming)](../slides/models-communication.md)
   - [Monolithic applications or microservices](../slides/microservices.md)
   - Examples of multi-layer and peer-to-peer system design
-  - RPC-based transport: the why and the how
-    * Canonical history (RFCs, etc)
-    * Arguments for and against
-      - And how modern systems navigate those decisions
-    * Models of communication to support (e.g., unary, streaming,
-      sync, async)
-    * Level of abstraction to support (examples like ZeroMQ)
-    * Scalability level to target
-    * Polyglot or monolingual
-    * API design
+  - [RPC-based communication and coordination](../slides/rpc.md)
+  - [API design](../slides/api-design.md)
 * Use gRPC to build microservices:
   - Why are we choosing gRPC
     * NOTE: The class is open-source and we will accept contributed
