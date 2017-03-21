@@ -108,8 +108,8 @@ The mechanism for communication in Microservice-based Applications
   - Levels closer to network (e.g., UDP) may offer performance advantages
     * Require customized reliability solutions
 	* Will not work in some network configurations (e.g., firewalls)
-  - Levels with higher abstraction (e.g., HTTP/2) may offer better
-    generality, ease of use, and applicability
+  - [Levels with higher abstraction (e.g., HTTP/2) may offer better
+    generality, ease of use, and applicability](http_transport.md)
 	* Designed to work with firewalls and load balancers
 	* But has additionial protocol-level data overheads
 * Level of abstraction to support

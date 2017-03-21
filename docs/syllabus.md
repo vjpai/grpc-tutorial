@@ -12,6 +12,7 @@ At the end of the course, you will be able to:
   - [Monolithic applications or microservices](../slides/microservices.md)
   - Examples of multi-layer and peer-to-peer system design
   - [RPC-based communication and coordination](../slides/rpc.md)
+    * Deep dive: [Using HTTP as an RPC transport layer](../slides/http_transport.md)
   - [API design](../slides/api-design.md)
 * Use gRPC to build microservices:
   - Why are we choosing gRPC
